@@ -1,0 +1,4 @@
+
+(fp_lib_table
+  (lib (name "Jigglebilly_Front")(type KiCad)(uri "$(KIPRJMOD)/Jigglebilly_Front.pretty")(options "")(descr ""))
+)
