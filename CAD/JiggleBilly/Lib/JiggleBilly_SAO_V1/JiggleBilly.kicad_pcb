@@ -30,6 +30,50 @@
 		(49 "F.Fab" user)
 	)
 	(setup
+		(stackup
+			(layer "F.SilkS"
+				(type "Top Silk Screen")
+				(color "Black")
+			)
+			(layer "F.Paste"
+				(type "Top Solder Paste")
+			)
+			(layer "F.Mask"
+				(type "Top Solder Mask")
+				(color "White")
+				(thickness 0.01)
+			)
+			(layer "F.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "dielectric 1"
+				(type "core")
+				(color "FR4 natural")
+				(thickness 1.51)
+				(material "FR4")
+				(epsilon_r 4.5)
+				(loss_tangent 0.02)
+			)
+			(layer "B.Cu"
+				(type "copper")
+				(thickness 0.035)
+			)
+			(layer "B.Mask"
+				(type "Bottom Solder Mask")
+				(color "White")
+				(thickness 0.01)
+			)
+			(layer "B.Paste"
+				(type "Bottom Solder Paste")
+			)
+			(layer "B.SilkS"
+				(type "Bottom Silk Screen")
+				(color "Black")
+			)
+			(copper_finish "HAL SnPb")
+			(dielectric_constraints no)
+		)
 		(pad_to_mask_clearance 0.2)
 		(allow_soldermask_bridges_in_footprints no)
 		(pcbplotparams
@@ -80,6 +124,7 @@
 	(net 7 "unconnected-(X1-SCL-Pad4)")
 	(net 8 "unconnected-(X1-GPIO1-Pad5)")
 	(footprint "LOGO"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "02dd12b3-7721-4c18-b57e-e4a1035faa39")
 		(at 123.033045 103.945338)
@@ -146,7 +191,9 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy -12.928423 -22.2014) (xy -12.806769 -22.132119) (xy -12.726023 -22.018618) (xy -12.716673 -21.989333)
@@ -1917,6 +1964,7 @@
 		)
 	)
 	(footprint "LOGO"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "0c237bc3-630b-4702-818b-feae778dc295")
 		(at 123.033045 103.945338)
@@ -1983,7 +2031,9 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy -1.47743 -22.780623) (xy -1.396061 -22.682501) (xy -1.344801 -22.542818) (xy -1.32573 -22.381087)
@@ -2887,6 +2937,7 @@
 		)
 	)
 	(footprint "LOGO"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "28bc3e0c-2f4f-468e-a95f-3cd6b61688cc")
 		(at 123.033045 103.945338)
@@ -2953,7 +3004,9 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy -5.654346 -18.195912) (xy -5.268885 -18.174839) (xy -4.918344 -18.141624) (xy -4.618627 -18.097811)
@@ -3441,6 +3494,7 @@
 		)
 	)
 	(footprint "LOGO"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "60da8694-794c-4885-8c41-e4b7efa947e1")
 		(at 123.033045 103.945338)
@@ -3507,9 +3561,12 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 	)
 	(footprint "LOGO"
+		(locked yes)
 		(layer "F.Cu")
 		(uuid "716dd4f9-eff3-4f28-8d43-463a6ea7cc8e")
 		(at 123.033045 103.945338)
@@ -3576,7 +3633,9 @@
 				)
 			)
 		)
-		(attr through_hole)
+		(attr through_hole board_only exclude_from_pos_files exclude_from_bom allow_missing_courtyard
+			dnp
+		)
 		(fp_poly
 			(pts
 				(xy -11.337135 3.847857) (xy -11.270343 3.890097) (xy -11.173741 3.972372) (xy -11.035827 4.102833)
