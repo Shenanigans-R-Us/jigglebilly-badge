@@ -1,4 +1,5 @@
-
 (fp_lib_table
-  (lib (name "Inkscapedoc")(type KiCad)(uri "$(KIPRJMOD)/Inkscapedoc.pretty")(options "")(descr ""))
+  (version 7)
+  (lib (name "Inkscapedoc")(type "KiCad")(uri "$(KIPRJMOD)/JiggleBilly.pretty")(options "")(descr ""))
+  (lib (name "BadgePirates_Common_Library-master")(type "KiCad")(uri "C:/Users/Josh/Downloads/BadgePirates_Common_Library-master/BadgePirates_Common_Library-master/BadgePiratesFootprint.pretty")(options "")(descr "BadgePirates"))
 )
