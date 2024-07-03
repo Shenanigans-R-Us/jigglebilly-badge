@@ -736,48 +736,48 @@
 		)
 	)
 	(junction
-		(at 158.75 30.48)
+		(at 132.08 81.28)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4cee92a6-6470-4f4c-8aa3-c5ee7eb17fa3")
 	)
 	(junction
-		(at 158.75 54.61)
+		(at 132.08 105.41)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "551ce4d2-0224-4307-bfc8-cde65fa1ca61")
 	)
 	(junction
-		(at 158.75 58.42)
+		(at 132.08 109.22)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "8501af74-0c14-4d80-a853-b6cd74ca663d")
 	)
 	(junction
-		(at 158.75 34.29)
+		(at 132.08 85.09)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "be48a94c-bd91-4db7-865e-ea080167e2dd")
 	)
 	(no_connect
-		(at 184.15 30.48)
+		(at 157.48 81.28)
 		(uuid "5d6a257a-b3cd-4cad-ac38-bb14c5b30e6d")
 	)
 	(no_connect
-		(at 189.23 30.48)
+		(at 162.56 81.28)
 		(uuid "97bb8b37-9cc2-45fa-8ac5-720fdb54d5be")
 	)
 	(no_connect
-		(at 189.23 58.42)
+		(at 162.56 109.22)
 		(uuid "a9e916c8-9cc0-44d6-bce7-2aca2f6cd809")
 	)
 	(no_connect
-		(at 184.15 58.42)
+		(at 157.48 109.22)
 		(uuid "c818f56c-3554-49f2-adf6-50d7e4a0edc9")
 	)
 	(wire
 		(pts
-			(xy 163.83 41.91) (xy 163.83 44.45)
+			(xy 137.16 92.71) (xy 137.16 95.25)
 		)
 		(stroke
 			(width 0)
@@ -787,7 +787,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 52.07) (xy 153.67 54.61)
+			(xy 127 102.87) (xy 127 105.41)
 		)
 		(stroke
 			(width 0)
@@ -797,7 +797,7 @@
 	)
 	(wire
 		(pts
-			(xy 179.07 58.42) (xy 158.75 58.42)
+			(xy 152.4 109.22) (xy 132.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -807,7 +807,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 30.48) (xy 158.75 34.29)
+			(xy 132.08 81.28) (xy 132.08 85.09)
 		)
 		(stroke
 			(width 0)
@@ -817,7 +817,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 54.61) (xy 163.83 54.61)
+			(xy 132.08 105.41) (xy 137.16 105.41)
 		)
 		(stroke
 			(width 0)
@@ -827,7 +827,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 41.91) (xy 153.67 44.45)
+			(xy 127 92.71) (xy 127 95.25)
 		)
 		(stroke
 			(width 0)
@@ -837,7 +837,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 34.29) (xy 163.83 34.29)
+			(xy 132.08 85.09) (xy 137.16 85.09)
 		)
 		(stroke
 			(width 0)
@@ -847,7 +847,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 58.42) (xy 158.75 54.61)
+			(xy 132.08 109.22) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -857,7 +857,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 34.29) (xy 158.75 34.29)
+			(xy 127 85.09) (xy 132.08 85.09)
 		)
 		(stroke
 			(width 0)
@@ -867,7 +867,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 62.23) (xy 158.75 58.42)
+			(xy 132.08 113.03) (xy 132.08 109.22)
 		)
 		(stroke
 			(width 0)
@@ -877,7 +877,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 26.67) (xy 158.75 30.48)
+			(xy 132.08 77.47) (xy 132.08 81.28)
 		)
 		(stroke
 			(width 0)
@@ -887,7 +887,7 @@
 	)
 	(wire
 		(pts
-			(xy 153.67 54.61) (xy 158.75 54.61)
+			(xy 127 105.41) (xy 132.08 105.41)
 		)
 		(stroke
 			(width 0)
@@ -897,7 +897,7 @@
 	)
 	(wire
 		(pts
-			(xy 158.75 30.48) (xy 179.07 30.48)
+			(xy 132.08 81.28) (xy 152.4 81.28)
 		)
 		(stroke
 			(width 0)
@@ -907,7 +907,7 @@
 	)
 	(wire
 		(pts
-			(xy 163.83 54.61) (xy 163.83 52.07)
+			(xy 137.16 105.41) (xy 137.16 102.87)
 		)
 		(stroke
 			(width 0)
@@ -917,7 +917,7 @@
 	)
 	(symbol
 		(lib_id "Device:LED")
-		(at 153.67 48.26 90)
+		(at 127 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -926,7 +926,7 @@
 		(fields_autoplaced yes)
 		(uuid "22971b12-1e30-4a9f-a43e-aee91e350e74")
 		(property "Reference" "D2"
-			(at 157.48 48.5774 90)
+			(at 130.81 99.3774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -935,7 +935,7 @@
 			)
 		)
 		(property "Value" "LED"
-			(at 157.48 51.1174 90)
+			(at 130.81 101.9174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -944,7 +944,7 @@
 			)
 		)
 		(property "Footprint" "BadgePirates_Common_Library-master:LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask Only"
-			(at 153.67 48.26 0)
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -952,8 +952,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 153.67 48.26 0)
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZVG45WT-9.pdf"
+			(at 127 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -961,8 +961,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 153.67 48.26 0)
+		(property "Description" "Reverse Mount Light emitting diode"
+			(at 127 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "SunLED"
+			(at 127 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "XZVG45WT-9"
+			(at 127 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "DigiKey"
+			(at 127 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN 1" "XZVG45WT-9"
+			(at 127 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor2" ""
+			(at 127 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN 2" ""
+			(at 127 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -987,7 +1041,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 158.75 26.67 0)
+		(at 132.08 77.47 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -996,7 +1050,7 @@
 		(fields_autoplaced yes)
 		(uuid "36551509-604f-4aa9-bab0-b5d6bd7c1c89")
 		(property "Reference" "#PWR01"
-			(at 158.75 30.48 0)
+			(at 132.08 81.28 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1005,7 +1059,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 158.75 21.59 0)
+			(at 132.08 72.39 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1013,7 +1067,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 26.67 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1022,7 +1076,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 26.67 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1031,7 +1085,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 158.75 26.67 0)
+			(at 132.08 77.47 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1053,7 +1107,7 @@
 	)
 	(symbol
 		(lib_id "Device:R_US")
-		(at 153.67 38.1 0)
+		(at 127 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1062,7 +1116,7 @@
 		(fields_autoplaced yes)
 		(uuid "3807fd47-2bd0-49b1-b28c-446016ec321d")
 		(property "Reference" "R1"
-			(at 156.21 36.8299 0)
+			(at 129.54 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1070,8 +1124,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "60"
-			(at 156.21 39.3699 0)
+		(property "Value" "90.9"
+			(at 129.54 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1080,7 +1134,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 154.686 38.354 90)
+			(at 128.016 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1089,7 +1143,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 153.67 38.1 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1098,7 +1152,7 @@
 			)
 		)
 		(property "Description" "Resistor, US symbol"
-			(at 153.67 38.1 0)
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1106,8 +1160,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "YAGEO"
-			(at 153.67 38.1 0)
+		(property "MFG" "Stackpole Electronics Inc"
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1115,8 +1169,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0805JR-0756RL"
-			(at 153.67 38.1 0)
+		(property "MPN" "RMCF0805FT90R9"
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1124,8 +1178,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor1" "LCSC"
-			(at 153.67 38.1 0)
+		(property "Vendor1" "Digikey"
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1133,8 +1187,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN 1" "C113305"
-			(at 153.67 38.1 0)
+		(property "Vendor PN 1" "RMCF0805FT90R9CT-ND"
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1142,8 +1196,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 2" "Digikey"
-			(at 153.67 38.1 0)
+		(property "Vendor 2" ""
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1151,8 +1205,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN 2" "311-56ARCT-ND"
-			(at 153.67 38.1 0)
+		(property "Vendor PN 2" ""
+			(at 127 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1176,44 +1230,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R_US")
-		(at 163.83 38.1 0)
+		(lib_id "Device:LED")
+		(at 137.16 99.06 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "38dd456d-3688-429e-a872-d3963ec5253c")
-		(property "Reference" "R2"
-			(at 166.37 36.8299 0)
+		(uuid "442c179e-79ad-4161-872c-725a3b04b5b0")
+		(property "Reference" "D3"
+			(at 140.97 99.3774 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Value" "60"
-			(at 166.37 39.3699 0)
+		(property "Value" "LED"
+			(at 140.97 101.9174 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
-			(at 164.846 38.354 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 163.83 38.1 0)
+		(property "Footprint" "BadgePirates_Common_Library-master:LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask Only"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1221,8 +1266,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor, US symbol"
-			(at 163.83 38.1 0)
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZVG45WT-9.pdf"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1230,8 +1275,8 @@
 				(hide yes)
 			)
 		)
-		(property "MFG" "YAGEO"
-			(at 163.83 38.1 0)
+		(property "Description" "Reverse Mount Light emitting diode"
+			(at 137.16 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1239,8 +1284,8 @@
 				(hide yes)
 			)
 		)
-		(property "MPN" "RC0805JR-0756RL"
-			(at 163.83 38.1 0)
+		(property "MFG" "SunLED"
+			(at 137.16 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1248,8 +1293,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor1" "LCSC"
-			(at 163.83 38.1 0)
+		(property "MPN" "XZVG45WT-9"
+			(at 137.16 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1257,8 +1302,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN 1" "C113305"
-			(at 163.83 38.1 0)
+		(property "Vendor1" "DigiKey"
+			(at 137.16 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1266,8 +1311,8 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor 2" "Digikey"
-			(at 163.83 38.1 0)
+		(property "Vendor PN 1" "XZVG45WT-9"
+			(at 137.16 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1275,8 +1320,17 @@
 				(hide yes)
 			)
 		)
-		(property "Vendor PN 2" "311-56ARCT-ND"
-			(at 163.83 38.1 0)
+		(property "Vendor2" ""
+			(at 137.16 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN 2" ""
+			(at 137.16 99.06 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1285,15 +1339,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "807dc1e1-3980-4cec-a59e-1c9cde568a13")
+			(uuid "4a3d5edd-5bf0-4ff7-8768-716994b04b1c")
 		)
 		(pin "2"
-			(uuid "4cbf42d6-48bc-48f4-93c1-2c485a26eaa3")
+			(uuid "3f89f6af-5c2c-4717-aa85-e1af40bfb715")
 		)
 		(instances
 			(project "JiggleBilly"
 				(path "/09b88ab8-0d2c-4f55-933f-7b3162d53353"
-					(reference "R2")
+					(reference "D3")
 					(unit 1)
 				)
 			)
@@ -1301,7 +1355,7 @@
 	)
 	(symbol
 		(lib_id "badgelife_shitty_addon_v169bis:Badgelife_sao_connector_v169bis")
-		(at 184.15 44.45 0)
+		(at 157.48 95.25 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1310,7 +1364,7 @@
 		(fields_autoplaced yes)
 		(uuid "6f6b9e0b-c063-406a-8076-0c5256c0a2b5")
 		(property "Reference" "X1"
-			(at 193.04 43.1799 0)
+			(at 166.37 93.9799 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1319,7 +1373,7 @@
 			)
 		)
 		(property "Value" "Badgelife_sao_connector_v169bis"
-			(at 193.04 45.7199 0)
+			(at 166.37 96.5199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1328,7 +1382,7 @@
 			)
 		)
 		(property "Footprint" "BadgePirates_Common_Library-master:Badgelife-SAOv169-SAO_Side_B.SLK"
-			(at 184.15 39.37 0)
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1336,8 +1390,8 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" ""
-			(at 184.15 39.37 0)
+		(property "Datasheet" "https://www.cvilux.com/uploads/spec/100/291/SPCH031.pdf"
+			(at 157.48 90.17 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1345,8 +1399,44 @@
 				(hide yes)
 			)
 		)
-		(property "Description" ""
-			(at 184.15 44.45 0)
+		(property "Description" "2.54MM(.100) DUAL ROW BOARD STRA"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Cvilux USA"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "CH87062V200"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Digikey"
+			(at 157.48 95.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN 1" "2987-CH87062V200-ND"
+			(at 157.48 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1382,35 +1472,35 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 163.83 48.26 90)
+		(lib_id "Device:R_US")
+		(at 137.16 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "dbf75e4f-e4fe-4dfd-84a8-42ac867a2951")
-		(property "Reference" "D3"
-			(at 167.64 48.5774 90)
+		(uuid "db4cd5ee-7ce3-4085-a2cf-0a5d059e7676")
+		(property "Reference" "R2"
+			(at 139.7 87.6299 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Value" "LED"
-			(at 167.64 51.1174 90)
+		(property "Value" "90.9"
+			(at 139.7 90.1699 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 			)
 		)
-		(property "Footprint" "BadgePirates_Common_Library-master:LED_Osram_Lx_P47F_D2mm_ReverseMount_Proper_Mask Only"
-			(at 163.83 48.26 0)
+		(property "Footprint" "Resistor_SMD:R_0805_2012Metric_Pad1.20x1.40mm_HandSolder"
+			(at 138.176 89.154 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1419,7 +1509,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 163.83 48.26 0)
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1427,8 +1517,62 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Light emitting diode"
-			(at 163.83 48.26 0)
+		(property "Description" "Resistor, US symbol"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MFG" "Stackpole Electronics Inc"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "MPN" "RMCF0805FT90R9"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor1" "Digikey"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN 1" "RMCF0805FT90R9CT-ND"
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor 2" ""
+			(at 137.16 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Vendor PN 2" ""
+			(at 137.16 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1437,15 +1581,15 @@
 			)
 		)
 		(pin "1"
-			(uuid "03538b78-7978-4c2c-9842-38d1663cf303")
+			(uuid "e250d982-7316-4274-90e1-e331feaa3967")
 		)
 		(pin "2"
-			(uuid "bbef45a8-6280-46af-922a-91b9dc0922bd")
+			(uuid "024ff804-9f8a-4d23-8b02-ae4338493331")
 		)
 		(instances
 			(project "JiggleBilly"
 				(path "/09b88ab8-0d2c-4f55-933f-7b3162d53353"
-					(reference "D3")
+					(reference "R2")
 					(unit 1)
 				)
 			)
@@ -1453,7 +1597,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 158.75 62.23 0)
+		(at 132.08 113.03 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1462,7 +1606,7 @@
 		(fields_autoplaced yes)
 		(uuid "e6924c01-d437-4ef3-9f72-6b36c04597de")
 		(property "Reference" "#PWR02"
-			(at 158.75 68.58 0)
+			(at 132.08 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1471,7 +1615,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 158.75 67.31 0)
+			(at 132.08 118.11 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1479,7 +1623,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 158.75 62.23 0)
+			(at 132.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1488,7 +1632,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 158.75 62.23 0)
+			(at 132.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1497,7 +1641,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 158.75 62.23 0)
+			(at 132.08 113.03 0)
 			(effects
 				(font
 					(size 1.27 1.27)

@@ -5458,7 +5458,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.cvilux.com/uploads/spec/100/291/SPCH031.pdf"
 			(at -0.000008 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5471,7 +5471,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "2.54MM(.100) DUAL ROW BOARD STRA"
 			(at -0.000008 0 0)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -5480,6 +5480,58 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MFG" "Cvilux USA"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "af548b35-293b-4f6a-81d6-eafd06631f46")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "MPN" "CH87062V200"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4792c3de-1881-4574-a998-bcd9dd78c27f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor1" "Digikey"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "34e1b9e6-5b9c-4ae5-865a-c49cba2bca09")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Vendor PN 1" "2987-CH87062V200-ND"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a5594a56-dbae-4f2d-8720-c9875ff8b395")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 			)
@@ -5762,7 +5814,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZVG45WT-9.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5776,7 +5828,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Reverse Mount Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -5790,8 +5842,92 @@
 				(justify mirror)
 			)
 		)
+		(property "MFG" "SunLED"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "4fa9bc16-2e9c-4e2b-bd6a-f2e7aca3531f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "XZVG45WT-9"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "e6b721d2-777b-4ff0-b1c8-10fbcbc357d4")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Vendor1" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "8289e864-f20a-4857-9f63-8af869f2f5c8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Vendor PN 1" "XZVG45WT-9"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "82c60942-4804-4291-82b9-c749678504d2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Vendor2" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "d27b6e1f-b1c8-44e5-8217-b6abe94e070f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Vendor PN 2" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "2a8f5b62-9aec-432a-88de-35109d458d1f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
 		(property ki_fp_filters "LED* LED_SMD:* LED_THT:*")
-		(path "/dbf75e4f-e4fe-4dfd-84a8-42ac867a2951")
+		(path "/442c179e-79ad-4161-872c-725a3b04b5b0")
 		(sheetname "Root")
 		(sheetfile "JiggleBilly.kicad_sch")
 		(attr smd)
@@ -6219,7 +6355,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "60"
+		(property "Value" "90.9"
 			(at 0 -1.65 180)
 			(layer "B.Fab")
 			(uuid "b1dfe82b-32ec-4fdf-8f50-c357f7e214d8")
@@ -6272,7 +6408,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFG" "YAGEO"
+		(property "MFG" "Stackpole Electronics Inc"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6286,7 +6422,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "RC0805JR-0756RL"
+		(property "MPN" "RMCF0805FT90R9"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6300,7 +6436,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor1" "LCSC"
+		(property "Vendor1" "Digikey"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6314,7 +6450,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor PN 1" "C113305"
+		(property "Vendor PN 1" "RMCF0805FT90R9CT-ND"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6328,7 +6464,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor 2" "Digikey"
+		(property "Vendor 2" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6342,7 +6478,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor PN 2" "311-56ARCT-ND"
+		(property "Vendor PN 2" ""
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6547,7 +6683,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.sunledusa.com/products/spec/XZVG45WT-9.pdf"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6561,7 +6697,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Description" "Light emitting diode"
+		(property "Description" "Reverse Mount Light emitting diode"
 			(at 0 0 0)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -6570,6 +6706,90 @@
 			(effects
 				(font
 					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MFG" "SunLED"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "60a42730-9c30-40b5-97bf-dfb28da60258")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "MPN" "XZVG45WT-9"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "a9eb8f2e-afdc-4314-8960-107c37791642")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Vendor1" "DigiKey"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "c6f23298-8af6-4e3d-89b8-ba02dd888c0b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Vendor PN 1" "XZVG45WT-9"
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "29811675-4878-4491-8557-4981f879faf0")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Vendor2" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "519e159c-69e5-4830-929c-c48bec826f8b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
+		)
+		(property "Vendor PN 2" ""
+			(at 0 0 180)
+			(unlocked yes)
+			(layer "B.Fab")
+			(hide yes)
+			(uuid "ddb1e459-3b55-4630-b1d8-88ea53a299ec")
+			(effects
+				(font
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -6993,7 +7213,7 @@
 		(descr "Resistor SMD 0805 (2012 Metric), square (rectangular) end terminal, IPC_7351 nominal with elongated pad for handsoldering. (Body size source: IPC-SM-782 page 72, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "resistor handsolder")
 		(property "Reference" "R2"
-			(at 0 -2.159 360)
+			(at 0 -2.159 0)
 			(layer "B.SilkS")
 			(uuid "9563df67-7e1f-45be-83dc-df7094644fde")
 			(effects
@@ -7004,8 +7224,8 @@
 				(justify mirror)
 			)
 		)
-		(property "Value" "60"
-			(at 0 -1.65 360)
+		(property "Value" "90.9"
+			(at 0 -1.65 0)
 			(layer "B.Fab")
 			(uuid "346b9c0f-5d48-4900-80d9-239e0558187e")
 			(effects
@@ -7057,7 +7277,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MFG" "YAGEO"
+		(property "MFG" "Stackpole Electronics Inc"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7071,7 +7291,7 @@
 				(justify mirror)
 			)
 		)
-		(property "MPN" "RC0805JR-0756RL"
+		(property "MPN" "RMCF0805FT90R9"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7085,7 +7305,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor1" "LCSC"
+		(property "Vendor1" "Digikey"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7099,7 +7319,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor PN 1" "C113305"
+		(property "Vendor PN 1" "RMCF0805FT90R9CT-ND"
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7113,7 +7333,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor 2" "Digikey"
+		(property "Vendor 2" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7127,7 +7347,7 @@
 				(justify mirror)
 			)
 		)
-		(property "Vendor PN 2" "311-56ARCT-ND"
+		(property "Vendor PN 2" ""
 			(at 0 0 180)
 			(unlocked yes)
 			(layer "B.Fab")
@@ -7142,7 +7362,7 @@
 			)
 		)
 		(property ki_fp_filters "R_*")
-		(path "/38dd456d-3688-429e-a872-d3963ec5253c")
+		(path "/db4cd5ee-7ce3-4085-a2cf-0a5d059e7676")
 		(sheetname "Root")
 		(sheetfile "JiggleBilly.kicad_sch")
 		(attr smd)
@@ -7247,7 +7467,7 @@
 			(uuid "809a81fe-396a-495a-88f8-769eccc5b572")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "B.Fab")
 			(uuid "8751241d-8365-41d0-a403-f9115783191a")
 			(effects
