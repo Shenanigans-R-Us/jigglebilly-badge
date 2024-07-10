@@ -1,0 +1,5 @@
+MODEL:JiggleBilly_P1 
+SIZE:37 x 47 CM    T = 0.15MM
+DATE:2024-07-10 22:00  
+NO:SO12407036623    7973051A (Õ‚√≥)   
+[µÁ”°]
